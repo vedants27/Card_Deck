@@ -20,6 +20,23 @@ class Deck {
             }
         }
     }
+    // Method to print a deck
+    public void printDeck() {
+        for (Card card : deck) {
+            System.out.println(card);
+        }
+    }
+
+    // Print a single card from the deck using position
+    public void printCard(int index) {
+        if (index >= 1 && index <= deck.size()) {
+            System.out.println(deck.get(index - 1));
+        } else {
+            System.out.println("Invalid position! Please choose between 1 and " + (deck.size()));
+        }
+    }
+
+
 
 
 }
