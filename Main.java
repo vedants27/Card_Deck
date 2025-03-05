@@ -39,6 +39,35 @@ class Main {
             deck.printDeck();
             break;
 
+        case 3: // Print a specific card
+            System.out.print("Enter position (1-52) of the card: ");
+            int index = scanner.nextInt();
+            deck.printCard(index);
+            break;
+
+        case 4: // Find a card of the same suit
+            System.out.print("Enter suit (Clubs, Diamonds, Hearts, Spades): ");
+            String suit = scanner.nextLine();
+            deck.sameCard(suit);
+            break;
+
+        case 5: // To compare 2 cards by rank and suit
+            System.out.print("Enter first card rank: ");
+            String rank1 = scanner.nextLine();
+            System.out.print("Enter first card suit: ");
+            String suit1 = scanner.nextLine();
+            System.out.print("Enter second card rank: ");
+            String rank2 = scanner.nextLine();
+            System.out.print("Enter second card suit: ");
+            String suit2 = scanner.nextLine();
+
+            Card card1 = new Card(rank1, suit1);
+            Card card2 = new Card(rank2, suit2);
+            deck.compareCard(card1, card2);
+            break;
+
+
+
 
 
     }
