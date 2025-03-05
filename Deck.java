@@ -35,6 +35,25 @@ class Deck {
             System.out.println("Invalid position! Please choose between 1 and " + (deck.size()));
         }
     }
+    // Find cards of the same suit
+    public void sameCard(String suit) {
+        System.out.println("Cards with suit " + suit + ":");
+        for (Card card : deck) {
+            if (card.suit.equalsIgnoreCase(suit)) {
+                System.out.println(card);
+            }
+        }
+    }
+
+    // Compare two cards if they have the same rank
+    public void compareCard(Card card1, Card card2) {
+        if (card1.rank.equals(card2.rank)) {
+            System.out.println("Both cards have the same rank: " + card1.rank);
+        } else {
+            System.out.println("The cards have different ranks.");
+        }
+    }
+
 
 
 
