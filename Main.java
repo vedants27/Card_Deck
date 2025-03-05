@@ -66,6 +66,24 @@ class Main {
             deck.compareCard(card1, card2);
             break;
 
+        case 6: // Find a card using rank and suit
+            System.out.print("Enter rank of card to search: ");
+            String searchRank = scanner.nextLine();
+            System.out.print("Enter suit of card to search: ");
+            String searchSuit = scanner.nextLine();
+            deck.findCard(searchRank, searchSuit);
+            break;
+
+        case 7: // To deal 5 random cards
+            deck.dealCard();
+            break;
+
+        case 8: // To shuffle the deck
+            System.out.println("\n----- Shuffling Deck -----");
+            deck.shuffleDeck();
+            break;
+
+
 
 
 
