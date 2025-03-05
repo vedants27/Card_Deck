@@ -28,6 +28,18 @@ class Main {
         choice = scanner.nextInt(); // Take integer input for user choice
         scanner.nextLine(); // Consume newline character
 
+         switch (choice) {
+        case 1:
+            System.out.println("\n-----Creating Deck-----");
+            deck.createDeck();
+            break;
+
+        case 2: // Print the entire deck
+            System.out.println("----- Printing Deck -----");
+            deck.printDeck();
+            break;
+
+
 
     }
 }
