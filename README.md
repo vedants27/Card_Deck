@@ -25,29 +25,29 @@ This is a Java-based Card Deck Management System that allows users to perform va
 
 
 ## How to Run the Program ##
-1: Clone the Repository 
-git clone https://github.com/vedants27/Card_Deck.git
+1. Clone the Repository 
+git clone https://github.com/vedants27/Card_Deck.git , 
 cd Card_Deck
 
-2:Compile the Java Files
+2. Compile the Java Files: 
 javac Main.java
 
-3:Run the Program
+3. Run the Program: 
 java Main
 
 
 ## Code Structure ##
 Card_Deck:
- Main.java
- Deck.java
- Card.java
- README.md
+ 1. Main.java
+ 2. Deck.java
+ 3. Card.java
+ 4. README.md
 
 
 ## Methods and Their Descriptions ##
 
 ## 1. Deck.java ##
-
+This file contains the logic for deck management. It includes methods to create a deck, print cards, find cards by suit, compare two cards, and shuffle or deal cards.
 -createDeck(): Initializes a deck of 52 playing cards.
 
 -printDeck(): Displays all cards in the deck.
@@ -65,12 +65,14 @@ Card_Deck:
 -shuffleDeck(): Randomizes the order of cards in the deck.
 
 ## 2. Card.java ##
+Defines the properties of a playing card, including its rank and suit. It also provides a toString method for displaying the card in a user-friendly format.
 
 -Card(String rank, String suit): Constructor to initialize rank and suit.
 
 -toString(): Returns a formatted string representation of a card.
 
 ## 3. Main.java ##
+It provides a menu-driven interface for users to interact with the card deck system and execute various operations such as creating, printing, shuffling, and dealing cards.
 
 -Menu-Driven User Interaction
 
