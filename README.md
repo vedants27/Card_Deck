@@ -1,10 +1,11 @@
-#Card_Deck#
+# Card_Deck #
 
-##Description##
+## Description ##
 
 This is a Java-based Card Deck Management System that allows users to perform various operations on a standard deck of 52 playing cards. The program implements functionalities such as creating a deck, shuffling, searching, dealing cards, and comparing cards.
 
-##Features##
+
+## Features ##
 
 1.Create Deck - Generates a standard deck of 52 cards.
 
@@ -22,7 +23,8 @@ This is a Java-based Card Deck Management System that allows users to perform va
 
 8.Shuffle Deck - Randomizes the order of the deck.
 
-##How to Run the Program##
+
+## How to Run the Program ##
 1: Clone the Repository 
 git clone https://github.com/vedants27/Card_Deck.git
 cd Card_Deck
@@ -33,16 +35,18 @@ javac Main.java
 3:Run the Program
 java Main
 
-##Code Structure##
+
+## Code Structure ##
 Card_Deck:
  Main.java
  Deck.java
  Card.java
  README.md
 
-##Methods and Their Descriptions##
 
-##1. Deck.java##
+## Methods and Their Descriptions ##
+
+## 1. Deck.java ##
 
 -createDeck(): Initializes a deck of 52 playing cards.
 
@@ -60,13 +64,13 @@ Card_Deck:
 
 -shuffleDeck(): Randomizes the order of cards in the deck.
 
-##2. Card.java##
+## 2. Card.java ##
 
 -Card(String rank, String suit): Constructor to initialize rank and suit.
 
 -toString(): Returns a formatted string representation of a card.
 
-##3. Main.java##
+## 3. Main.java ##
 
 -Menu-Driven User Interaction
 
@@ -74,7 +78,8 @@ Card_Deck:
 
 -Handles incorrect inputs and provides clear output messages.
 
-##Example Usage##
+
+## Example Usage ##
 
 
 ![image](https://github.com/user-attachments/assets/992a2e07-c70c-4045-9637-ac4f416e27b2)
