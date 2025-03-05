@@ -83,11 +83,12 @@ class Main {
             deck.shuffleDeck();
             break;
 
+        default: // Default case
+        System.out.println("Invalid choice! Please enter a valid option.");
+    }
 
-
-
-
-
+        } while (choice != 0);
+        scanner.close();
     }
 }
 
